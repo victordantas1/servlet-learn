@@ -3,15 +3,27 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
+
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
 	<servlet-name>FirstServlet</servlet-name>
   	<servlet-class>servlet_learn.servlet.FirstServlet</servlet-class>
   </servlet>
+
+  <servlet>
+	<servlet-name>GenericServlet</servlet-name>
+  	<servlet-class>servlet_learn.servlet.GenericServletImpl</servlet-class>
+  </servlet>
+  
   
   <servlet-mapping>
   	<servlet-name>FirstServlet</servlet-name>
-  	<url-pattern>/**</url-pattern>
+  	<url-pattern>/first</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+  	<servlet-name>GenericServlet</servlet-name>
+  	<url-pattern>/generic</url-pattern>
   </servlet-mapping>
   
 </web-app>
