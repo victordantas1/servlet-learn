@@ -8,7 +8,7 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
-/*
+/**
  * A classe GenericServlet implementa varios metodos necessarios para o servlet
  * exceto o metodo service.
  * A classe GenericServlet pode responder requisicoes de protocolos diferentes
