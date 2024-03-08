@@ -1,4 +1,4 @@
-package servlet_learn.servlet;
+package servlet_learn.servlet.impl_types;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -23,7 +23,7 @@ public class GenericServletImpl extends GenericServlet {
 		res.setContentType("text/html");  
 		  
 		PrintWriter out = res.getWriter();  
-		out.print("<html><body>");  
+		out.print("<html><body>");
 		out.print("<b>hello generic servlet</b>");  
 		out.print("</body></html>");  
 		  

@@ -1,4 +1,4 @@
-package servlet_learn.servlet;
+package servlet_learn.servlet.impl_types;
 
 import java.io.IOException;
 import java.io.PrintWriter;

@@ -1,5 +1,9 @@
 servlet_learn\servlet\FirstServlet.class
+servlet_learn\servlet\MySearcherServlet.class
+servlet_learn\servlet\attribute_context\AttributeContextServlet.class
+servlet_learn\servlet\attribute_context\ShowAttributeServlet.class
 servlet_learn\servlet\HttpServlet.class
+servlet_learn\servlet\TestServletConfig.class
 servlet_learn\servlet\LoginServlet.class
 servlet_learn\servlet\GenericServletImpl.class
 servlet_learn\servlet\WelcomeServlet.class
