@@ -1,7 +1,6 @@
 package servlet_learn.servlet.request_dispatcher;
 
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -16,9 +15,8 @@ public class WelcomeServlet extends javax.servlet.http.HttpServlet {
 
     @Override
     public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {
+        String name = req.getParameter("userName");
         PrintWriter out = res.getWriter();
-        Cookie[] cookies = req.getCookies();
-
-        out.println("Welcome " + cookies[0].getValue());
+        out.println("Welcome " + name);
     }
 }

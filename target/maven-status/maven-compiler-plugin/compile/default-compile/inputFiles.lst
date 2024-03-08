@@ -1,9 +1,9 @@
-C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\TestServletConfig.java
 C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\attribute_context\ShowAttributeServlet.java
-C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\FirstServlet.java
-C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\WelcomeServlet.java
-C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\GenericServletImpl.java
-C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\LoginServlet.java
-C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\MySearcherServlet.java
-C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\HttpServlet.java
+C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\servlet_config\TestServletConfig.java
+C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\send_redirect\MySearcherServlet.java
+C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\impl_types\HttpServlet.java
+C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\impl_types\GenericServletImpl.java
+C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\impl_types\FirstServlet.java
+C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\request_dispatcher\LoginServlet.java
 C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\attribute_context\AttributeContextServlet.java
+C:\Estudos\Java-EE\servlet_learn\src\main\java\servlet_learn\servlet\request_dispatcher\WelcomeServlet.java

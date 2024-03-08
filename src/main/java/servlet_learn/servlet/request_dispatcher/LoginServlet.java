@@ -18,9 +18,9 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
         String username = req.getParameter("userName");
         String password = req.getParameter("userPass");
 
-        Cookie cookie = new Cookie("username", username);
+        Cookie cookie = new Cookie("username", username); // Cria um cookie
         cookie.setMaxAge(120);
-        res.addCookie(cookie);
+        res.addCookie(cookie); // Adiciona o cookie na resposta que sera entregue ao cliente
         if(username.isEmpty() || password.isEmpty()) {
             PrintWriter out = res.getWriter();
             out.println("Entrada Invalida");

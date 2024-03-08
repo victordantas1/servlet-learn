@@ -1,9 +1,9 @@
-servlet_learn\servlet\FirstServlet.class
-servlet_learn\servlet\MySearcherServlet.class
+servlet_learn\servlet\impl_types\FirstServlet.class
+servlet_learn\servlet\impl_types\GenericServletImpl.class
 servlet_learn\servlet\attribute_context\AttributeContextServlet.class
 servlet_learn\servlet\attribute_context\ShowAttributeServlet.class
-servlet_learn\servlet\HttpServlet.class
-servlet_learn\servlet\TestServletConfig.class
-servlet_learn\servlet\LoginServlet.class
-servlet_learn\servlet\GenericServletImpl.class
-servlet_learn\servlet\WelcomeServlet.class
+servlet_learn\servlet\send_redirect\MySearcherServlet.class
+servlet_learn\servlet\servlet_config\TestServletConfig.class
+servlet_learn\servlet\impl_types\HttpServlet.class
+servlet_learn\servlet\request_dispatcher\LoginServlet.class
+servlet_learn\servlet\request_dispatcher\WelcomeServlet.class

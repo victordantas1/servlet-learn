@@ -4,6 +4,7 @@ import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -16,9 +17,10 @@ public class ShowAttributeServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ServletContext context = getServletContext();
+        Cookie[] cookies = req.getCookies(); // Pega os cookies armazenados no cache do cliente
         PrintWriter out = resp.getWriter();
         resp.setContentType("text/html");
         String estudo = (String) context.getAttribute("estudos");
-        out.println("Estou estudando " + estudo);
+        out.println(cookies[0].getValue() + " esta estudando " + estudo);
     }
 }
