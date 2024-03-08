@@ -14,9 +14,10 @@ public class WelcomeServlet extends javax.servlet.http.HttpServlet {
      * */
 
     @Override
-    public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {
+     public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {
         String name = req.getParameter("userName");
         PrintWriter out = res.getWriter();
         out.println("Welcome " + name);
     }
+
 }
